@@ -8,7 +8,7 @@ import javax.swing.ImageIcon;
 
 public class Stars {
 	
-	private Image imagem;
+	private Image imagem; 
 	private int x,y;
 	private int largura, altura;
 	private boolean isVisivel;

@@ -18,7 +18,7 @@ import javax.swing.Timer;
 
 public class Fase extends JPanel implements ActionListener {
 
-	private Image fundo;
+	private Image fundo; 
 	private Player player;
 	private Timer timer;
 	private List<Enemy1> enemy1;

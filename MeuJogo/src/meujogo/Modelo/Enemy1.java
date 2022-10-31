@@ -5,7 +5,7 @@ import java.awt.Rectangle;
 
 import javax.swing.ImageIcon;
 
-public class Enemy1 {
+public class Enemy1 { 
 	
 	private Image imagem;
 	private int x,y;

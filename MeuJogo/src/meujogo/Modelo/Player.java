@@ -14,7 +14,7 @@ import javax.swing.Timer;
 public class Player implements ActionListener {
 
 	private int x, y; // Todos esses x e y são usados para mover
-	private int dx, dy;
+	private int dx, dy; 
 	private Image imagem;
 	private int altura, largura; // Usado para colisão
 	private List<Tiro> tiros;
@@ -25,7 +25,7 @@ public class Player implements ActionListener {
 	public Player() { // A coordenada na tela em que o player vai spawnar
 		this.x = 100;
 		this.y = 100;
-		isVisivel = true;
+		isVisivel = true; 
 		isTurbo = false;
 
 		tiros = new ArrayList<Tiro>();
